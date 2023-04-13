@@ -17,7 +17,7 @@ body {
 header {
     display: flex;
     position: relative;
-    padding: 5px;
+    padding:6px;
     background-color: rgb(232, 228, 228);
     border-color:rgb(246, 248, 248);
 }
@@ -33,6 +33,7 @@ header {
 
 input {
     width: 30rem;
+    border-style: none;
 }
 
 input::placeholder {
@@ -67,7 +68,7 @@ section {
     display: flex;
     flex-direction: column;
     margin: 20px;
-    padding: 20px;
+    padding: 10px;
     height: 35vh;
     border-bottom: 1px solid rgb(224, 221, 221);
 }
