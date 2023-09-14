@@ -9,30 +9,31 @@
 </head>
 <body>
     <header>
-        <div class="Icons">
-            <a href="#"><img src="header-logo.png" alt=""></a>
+        <div class="header-logo">
+            <a href="#"> <img src="fashionista-logo1.png" alt="fash_logo1"></a>
         </div>
-        <div class="search">  
+        <div class="search"> 
+
         </div>
     </header>
     <section>
-        <div class="dashboard">
-            <div class="db-header">
-                <img src="fashionista-logo1.png" alt="fash_logo1">
-            </div>
-            <div class="db-links">
+        <div id="mySidebar" class="sidebar dashboard">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
                 <a href="#">WORK</a>
                 <a href="#">ABOUT</a>
                 <a href="#">JOURNAL</a>
                 <a href="#">CONTACT</a>
                 <a href="#">SHOP +</a>
-            </div>
-            <div class="db-socials">
+            
+            <!--div class="db-socials">
                 <a href="#"><img src="Emey87-Social-Button-Facebook.256.png" alt=""></a>
                 <a href="#"><img src="Ampeross-Smooth-Twitter.512.png" alt=""></a>
                 <a href="#"><img src="Designbolts-Cute-Social-Media-Pinterest.256.png" alt=""></a>
                 <div><h5>Copyright 2023 Brand Exponents All<br>Rights Reserved</h5></div>
-            </div>
+            </div-->
+        </div>
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">☰ Dashboard</button>
         </div>
         <div class="gridContainer">
             <div class="grid one"></div>
@@ -46,6 +47,18 @@
             <div class="grid nine"></div>
         </div>
     </section>
-    
+    <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.display = "none";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.display = "block";
+          
+
+        }
+        </script>   
 </body>
 </html>
