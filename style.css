@@ -47,9 +47,7 @@ section {
     position: relative;
     grid-template-columns:150px auto;
     background-color:#29d0e245 ;
-    grid-template-areas: 
-    "dashboard container"
-    ;
+    grid-template-areas: "dashboard container";
 }
 
 
@@ -171,7 +169,7 @@ section {
 
 
 .one {
-    background-image: url(pexels-alexander-suhorucov-6457579.jpg);
+    background-image: url(images/pexels-alexander-suhorucov-6457579.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -182,7 +180,7 @@ section {
 }
 
 .two{
-    background-image: url(pexels-cesar-galeão-3289711.jpg);
+    background-image: url(images/pexels-cesar-galeão-3289711.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -193,7 +191,7 @@ section {
 }
 
 .three {
-    background-image: url(pexels-jeffrey-czum-2253415.jpg);
+    background-image: url(images/pexels-jeffrey-czum-2253415.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -204,7 +202,7 @@ section {
 }
 
 .four {
-    background-image: url(pexels-mathias-reding-7085834.jpg);
+    background-image: url(images/pexels-mathias-reding-7085834.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -215,7 +213,7 @@ section {
 }
 
 .five {
-    background-image: url(pexels-monstera-6621189.jpg);
+    background-image: url(images/pexels-monstera-6621189.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -226,7 +224,7 @@ section {
 }
 
 .six {
-    background-image: url(pexels-pixabay-256450.jpg);
+    background-image: url(images/pexels-pixabay-256450.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -237,7 +235,7 @@ section {
 }
 
 .seven {
-    background-image: url(pexels-ylanite-koppens-796602.jpg);
+    background-image: url(images/pexels-ylanite-koppens-796602.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -248,7 +246,7 @@ section {
 }
 
 .eight {
-    background-image: url(pexels-gary-barnes-6231630.jpg);
+    background-image: url(images/pexels-gary-barnes-6231630.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -259,7 +257,7 @@ section {
 }
 
 .nine {
-    background-image: url(pexels-allec-gomes-5403485.jpg);
+    background-image: url(images/pexels-allec-gomes-5403485.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
