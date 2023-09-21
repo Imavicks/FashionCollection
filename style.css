@@ -41,8 +41,6 @@ header {
     background: none;
     display:inline;
     border-radius: 50%;
-
-    
 }
 
 .search-box .input {
@@ -54,12 +52,13 @@ header {
     color: black;
     outline: none;
     transition: 0.2s;
-    
 }
+
 .search-box input:focus {
     width: 120px;
     background: #ffffffeb;
 }
+
 .shopping-cart{
     position: absolute;
     background-color: rgb(234, 234, 18);
@@ -79,13 +78,15 @@ header {
     font-size: 20px;
     font-weight: 600;
 }
+
 .shopping-cart__items{
    font-size: 10px;
 }
+
 .shopping-cart:hover{
     background-color: rgba(246, 246, 8, 0.973);
-    
 }
+
 .login{
     position: absolute;
     right:100px;
@@ -96,18 +97,16 @@ header {
     font-weight: 600;
     height: 50%;
     padding: 5px 2px 0px 2px;
-    
 }
+
 .login:hover{
     border: 1px solid white;
     background-color: #f1f1f1;
     color: #080000;
-
 }
 
 
 input {
-    
     width: 30rem;
     border-style: none;
 }
@@ -143,7 +142,6 @@ section {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 80px;
-    
 }
   
 .sidebar a {
