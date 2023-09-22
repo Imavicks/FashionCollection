@@ -35,9 +35,9 @@ header {
     border: 2px solid rgb(6 247 255);
     border-radius: 50px;
     overflow: hidden;
-
 }
-.fa-magnifying-glass{
+
+.fa-magnifying-glass {
     background: none;
     display:inline;
     border-radius: 50%;
@@ -59,7 +59,7 @@ header {
     background: #ffffffeb;
 }
 
-.shopping-cart{
+.shopping-cart {
     position: absolute;
     background-color: rgb(234, 234, 18);
     right: 2px;
@@ -74,7 +74,7 @@ header {
     padding: 2px 5px 2px 2px;
 }
 
-.shopping-cart__i{
+.shopping-cart__i {
     font-size: 20px;
     font-weight: 600;
 }
@@ -116,6 +116,7 @@ input::placeholder {
     color: rgba(149, 157, 158, 0.591);
     left: 8px;
 }
+
 
 section {
     display: grid;
