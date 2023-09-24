@@ -1,113 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>fashionCollection</title>
-    <script src="https://kit.fontawesome.com/53e299a4b2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="header-logo">
-        <a href="#"><img src="images/fashionista-logo1.png" alt="fash_logo1"/></a>
-      </div>
-      <div class="search-box">
-        <input type="search" class="input" name="txt" placeholder="search..." />
-        <button type="submit" class="search-btn">
-          <i class="fas fa-search"></i>
-        </button>
-      </div>
-     <a class="login" href="#"> Login/Signup</a>
-     <a href="#" class="shopping-cart" >
-         <span class="shopping-cart__i">Cart</span>
-         <i class="fa-solid fa-cart-shopping"></i>
-         <span class="shopping-cart__items">0</span>
-     </a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>fashionCollection</title>
+  <script src="https://kit.fontawesome.com/53e299a4b2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="header-logo">
+      <a href="#"><img src="images/fashionista-logo1.png" alt="fash_logo1" /></a>
+    </div>
+    <div class="search-box">
+      <input type="search" class="input" name="txt" placeholder="search..." />
+      <button type="submit" class="search-btn">
+        <i class="fas fa-search"></i>
+      </button>
+    </div>
+    <a class="login" href="#"> Login/Signup</a>
+    <a href="#" class="shopping-cart">
+      <span class="shopping-cart__i">Cart</span>
+      <i class="fa-solid fa-cart-shopping"></i>
+      <span class="shopping-cart__items">0</span>
+    </a>
     <div class="popup-container" id="popup-container">
-        <div class="popup-content">
-            <span class="close-button" id="close-button">X</span>
-            <div class="login-signup-form">
-                <h2>Login/Sign Up</h2>
-                <form id="login-form">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                    <label for="password">Password:</label>
-                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
-                    <button type="submit">Login</button>
-                </form>
-                <p>Don't have an account? <a href="#">Sign Up</a></p>
-            </div>
+      <div class="popup-content">
+        <span class="close-button" id="close-button">X</span>
+        <div class="login-signup-form">
+          <h2>Login/Sign Up</h2>
+          <form id="login-form">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <button type="submit">Login</button>
+          </form>
+          <p>Don't have an account? <a href="#">Sign Up</a></p>
         </div>
+      </div>
     </div>
     <div class="overlay" id="overlay"></div>
-    </header>
-    <section>
-      <div id="mySidebar" class="sidebar dashboard">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
-        <a href="#">INBOX</a>
-        <a href="#">ORDER HISTORY</a>
-        <a href="#">SAVED ITEMS</a>
-        <a href="#">ACCOUNT SETTINGS</a>
-        <a href="#">SHOP +</a>
+  </header>
+  <section>
+    <div id="mySidebar" class="sidebar dashboard">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+      <a href="#">INBOX</a>
+      <a href="#">ORDER HISTORY</a>
+      <a href="#">SAVED ITEMS</a>
+      <a href="#">ACCOUNT SETTINGS</a>
+      <a href="#">SHOP +</a>
 
-      </div>
-      <div id="main">
-        <button class="openbtn" onclick="openNav()">☰ Dashboard</button>
-      </div>
-      <div class="gridContainer">
-        <div class="grid one"></div>
-        <div class="grid two"></div>
-        <div class="grid three"></div>
-        <div class="grid four"></div>
-        <div class="grid five"></div>
-        <div class="grid six"></div>
-        <div class="grid seven"></div>
-        <div class="grid eight"></div>
-        <div class="grid nine"></div>
-      </div>
-    </section>
-    <footer class="site-footer">
-      <div class="site-footer__form">
-        <h6>Subscribe to Newsletter</h6>
-        <form>
-          <label for="subscription">Email</label>
-          <input type="email" id="email" placeholder="Enter your email...">
-          <button>Subscribe</button>
-        </form>
+    </div>
+    <div id="main">
+      <button class="openbtn" onclick="openNav()">☰ Dashboard</button>
+    </div>
+    <div class="gridContainer">
+      <div class="grid one"></div>
+      <div class="grid two"></div>
+      <div class="grid three"></div>
+      <div class="grid four"></div>
+      <div class="grid five"></div>
+      <div class="grid six"></div>
+      <div class="grid seven"></div>
+      <div class="grid eight"></div>
+      <div class="grid nine"></div>
+    </div>
+  </section>
+  <footer class="site-footer">
+    <div class="site-footer__form">
+      <h6>Subscribe to Newsletter</h6>
+      <form>
+        <label for="subscription">Email</label>
+        <input type="email" id="email" placeholder="Enter your email...">
+        <button>Subscribe</button>
+      </form>
 
-      </div>
+    </div>
 
-      <div class="site-footer__account">
-        <h6>My Account</h6>
-        <ul>
-         <li><a href="#">Sign In/Register</a></li>
-         <li><a href="#">My Wishlist</a></li>
-         <li><a href="#">My Cart</a></li>
-        </ul>
-       </div>
-      <div class="site-footer__quicklinks">
-       <h6>Quick Links</h6>
-       <ul>
+    <div class="site-footer__account">
+      <h6>My Account</h6>
+      <ul>
+        <li><a href="#" class="login-footer">Sign In/Register</a></li>
+        <li><a href="#">My Wishlist</a></li>
+        <li><a href="#">My Cart</a></li>
+      </ul>
+    </div>
+    <div class="site-footer__quicklinks">
+      <h6>Quick Links</h6>
+      <ul>
         <li><a href="#">About Us</a></li>
         <li><a href="#">Contribute</a></li>
         <li><a href="#">Private Policy</a></li>
         <li><a href="#">Contact Us</a></li>
         <li><a href="#">Sitemap</a></li>
-       </ul>
-      </div>
-      <nav class="footer-bottom">
-        <p><h6>Copyright 2023 Brand Exponents All Rights Reserved</h6></p>
-        <ul class="db-socials">
-          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
-        </ul>
-      </nav>
+      </ul>
+    </div>
+    <nav class="footer-bottom">
+      <p>
+        <h6>Copyright 2023 Brand Exponents All Rights Reserved</h6>
+      </p>
+      <ul class="db-socials">
+        <li><a href="#"><i class="fa-brands fa-instagram" style="color:#ffffff"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-facebook" style="color:#ffffff"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-youtube" style="color:#ffffff"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-tiktok" style="color:#ffffff"></i></a></li>
+      </ul>
+    </nav>
 
-    </footer>
-    <script src="script.js"></script>
-  </body>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
 </html>

@@ -16,6 +16,10 @@ document.querySelector('.login').addEventListener('click', function() {
     document.getElementById('overlay').style.display = 'block';
 });
 
+document.querySelector('.login-footer').addEventListener('click', function() {
+    document.getElementById('popup-container').style.display = 'block';
+    document.getElementById('overlay').style.display = 'block';
+});
 // function to close login popup
 function closePopup() {
     document.getElementById('popup-container').style.display = 'none';
