@@ -10,16 +10,33 @@ function closeNav() {
     document.getElementById("main").style.display = "block";
 }
 
-// function to open login popup
-document.querySelector('.login').addEventListener('click', function() {
-    document.getElementById('popup-container').style.display = 'block';
-    document.getElementById('overlay').style.display = 'block';
+// Function to open login popup with a transition effect
+function openPopup() {
+    const popupContainer = document.getElementById('popup-container');
+    const overlay = document.getElementById('overlay');
+
+    popupContainer.style.opacity = '0';
+    overlay.style.opacity = '0';
+
+    setTimeout(() => {
+        popupContainer.style.display = 'block';
+        overlay.style.display = 'block';
+
+        setTimeout(() => {
+            popupContainer.style.opacity = '1';
+            overlay.style.opacity = '1';
+        }, 10);
+    }, 10);
+}
+document.querySelectorAll('.login').forEach(function(element) {
+    element.addEventListener('click', openPopup);
+});
+document.querySelectorAll('.login-footer').forEach(function(element) {
+    element.addEventListener('click', function() {
+        setTimeout(openPopup, 400);
+    });
 });
 
-document.querySelector('.login-footer').addEventListener('click', function() {
-    document.getElementById('popup-container').style.display = 'block';
-    document.getElementById('overlay').style.display = 'block';
-});
 // function to close login popup
 function closePopup() {
     document.getElementById('popup-container').style.display = 'none';
